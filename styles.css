@@ -68,7 +68,7 @@ button {
 }
 
 .link {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0 30px;
   justify-content: center;
   align-items: center;
@@ -82,13 +82,14 @@ button {
   height: fit-content;
   justify-content: center;
   padding: 45px 15px;
+  gap: 35px;
 }
 
 .container.h1-message-button {
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: left;
-  padding-right: 25px;
+  padding-right: 55px;
   max-width: 300px;
   padding: 15px 0;
 }
@@ -132,15 +133,16 @@ h2 {
 
 .container.img-descriptions {
   display: flex;
-  width: 720px;
+  width: 760px;
   justify-content: space-evenly;
-  gap: 55px;
-  margin: 0 0 45px 0;
+  margin: 0 0 45px -20px;
 }
 
 .container.img-descriptions p {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 5px;
+  padding: 5px;
+  justify-content: space-around;
 }
 
 /*quote section*/
@@ -172,6 +174,7 @@ h2 {
   display: flex;
   height: 250px;
   align-items: center;
+  justify-content: center;
 }
 
 .container.background.call-to-action {
